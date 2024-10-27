@@ -1,0 +1,22 @@
+INPUT_FILE_PATHS:
+  Charges: input_data/Charges_use.csv
+  Damages: input_data/Damages_use.csv
+  Endorse: input_data/Endorse_use.csv
+  Primary_Person: input_data/Primary_Person_use.csv
+  Units: input_data/Units_use.csv
+  Restrict: input_data/Restrict_use.csv
+
+OUTPUT_PATHS:
+  output_path_1: output_files/analysis_1
+  output_path_2: output_files/analysis_2
+  output_path_3: output_files/analysis_3
+  output_path_4: output_files/analysis_4
+  output_path_5: output_files/analysis_5
+  output_path_6: output_files/analysis_6
+  output_path_7: output_files/analysis_7
+  output_path_8: output_files/analysis_8
+  output_path_9: output_files/analysis_9
+  output_path_10: output_files/analysis_10
+
+FILE_FORMAT:
+  Output: parquet
