@@ -2,9 +2,9 @@
 
 ## Overview
 
-The Car Crash Spark Application is a data processing application built with Apache Spark that analyzes car crash data to extract valuable insights related to accidents. The application leverages Spark's distributed computing capabilities to efficiently process large datasets, making it suitable for data engineering and analytics tasks in the automotive safety domain.
+The Car Crash Spark Application is a data processing application built with Apache Spark that analyzes car crash data to extract valuable insights related to accidents. The application leverages Spark's distributed computing capabilities to efficiently process large datasets, making it suitable for data engineering and analytics tasks.
 
-## Features
+## Analysis
 
 - Count crashes involving males greater than 2.
 - Analyze two-wheeler accidents.
@@ -24,7 +24,6 @@ The Car Crash Spark Application is a data processing application built with Apac
 - Required Python libraries:
   - PySpark
   - PyYAML
-  - Any other dependencies (add if applicable)
 
 ## Project Structure
 
@@ -32,9 +31,12 @@ The Car Crash Spark Application is a data processing application built with Apac
 .
 ├── configs
 │   └── config.yaml            # Configuration file for output paths and file formats
-├── input_files
+├── input_data
 │   └── input_files_csv        # Directory for input CSV files
+├── output_files
+│   └── output_files           # Directory for output files
 ├── src
 │   ├── main.py                # Main entry point of the application
 │   ├── analysis.py            # Module containing analysis functions
-│   └── utils.py               # Utility functions for reading and writing data
+│   ├── utils.py               # Utility functions for reading and writing data
+│   └── query_outputs.py       # Consists of queries and their outputs
